@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#content {
+	width: 750px;
+	height: auto;
+	overflow: hidden;
+	z-index: 4;
+	top: 146px;
+	position: absolute;
+	left: 0px;
+}
+
+#logo {
+	width: 277px;
+	height: 227px;
+	overflow: hidden;
+	z-index: 5;
+	top: 0px;
+	position: absolute;
+	left: 484px;
+}
+
+#navTrees {
+	width: 184px;
+	height: 19px;
+	overflow: hidden;
+	z-index: 5;
+	top: 127px;
+	position: absolute;
+	left: 0px;
+}
+
+#navigation {
+	width: 184px;
+	height: 159;
+	overflow: visible;
+	z-index: 6;
+	top: 146px;
+	position: absolute;
+	left: 0px;
+}
+
+.introText {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 12px;
+	color: #726964;
+	line-height: 150%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.copyrightText {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	line-height: 150%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.quoteText {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 20px;
+	color: #726964;
+	line-height: 125%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+img {
+	border:none;
+}
+
+body {
+	/*overflow:hidden;Needed to eliminate scrollbars*/
+	background:#fff;
+}
+
+#supersize {
+	position:fixed;
+}
+
+#supersize img, #supersize a {
+	height:100%;
+	width:100%;
+	position:absolute;
+	z-index: 0;
+}
+
+ul {
+   list-style-image: url("../images/arrow.gif");
+   list-style-position: outside;
+   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+   font-size: 12px;
+   color: #726964;
+   line-height: 175%;
+   margin-right: 20px;
+   margin-left: 60px;
+}
+
+a:link { text-decoration: underline; color: #726964; }
+a:visited { text-decoration: underline; color: #726964; }
+a:hover {text-decoration: none; color: #726964; }
+a:active { text-decoration: underline; color: #726964; }
+
+.footerlink a:link { text-decoration: underline; color: #ffffff; }
+.footerlink a:visited { text-decoration: underline; color: #ffffff; }
+.footerlink a:hover {text-decoration: none; color: #ffffff; }
+.footerlink a:active { text-decoration: underline; color: #ffffff; }
