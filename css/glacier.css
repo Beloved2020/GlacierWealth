@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #content {
-	width: 1200px;
+	width: 1300px;
 	height: auto;
 	overflow: hidden;
 	z-index: 4;
@@ -44,6 +44,15 @@
 .introText {
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	font-size: 12px;
+	color: #726964;
+	line-height: 150%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.introText_20 {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 20px;
 	color: #726964;
 	line-height: 150%;
 	margin-right: 20px;
@@ -104,10 +113,18 @@ ul {
    margin-left: 60px;
 }
 
-a:link { text-decoration: underline; color: #726964; }
+/*a:link { text-decoration: underline; color: #726964; }
 a:visited { text-decoration: underline; color: #726964; }
 a:hover {text-decoration: none; color: #726964; }
-a:active { text-decoration: underline; color: #726964; }
+a:active { text-decoration: underline; color: #726964; }*/
+
+a:link { text-decoration: none; color: rgb(53,196,209); }
+a:visited { text-decoration: none; color: rgb(53,196,209); }
+a:hover {text-decoration: none; color: #726964; }
+a:active { text-decoration: none; color: rgb(53,196,209); }
+
+
+
 
 .footerlink a:link { text-decoration: underline; color: #ffffff; }
 .footerlink a:visited { text-decoration: underline; color: #ffffff; }
