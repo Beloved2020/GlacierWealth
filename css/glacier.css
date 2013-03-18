@@ -77,6 +77,15 @@
 	margin-left: 20px;
 }
 
+.titleText {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 28px;
+	color: #726964;
+	line-height: 125%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
 * {
 	margin:0;
 	padding:0;
